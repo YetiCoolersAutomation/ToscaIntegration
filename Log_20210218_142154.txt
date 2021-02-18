@@ -1,0 +1,6 @@
+[3] 14:21:54: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\ToscaIntegration\ToscaIntegration.tws'
+[3] 14:21:54: Log level: 4
+[3] 14:21:54: Release: 13.3.0.33762
+[4] 14:21:54:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 14:21:54:  ShowStatusInfo: 'Refresh all finished'
+[4] 14:21:59:  ShowStatusInfo: 'Ready'
