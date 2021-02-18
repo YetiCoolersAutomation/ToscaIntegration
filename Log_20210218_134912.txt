@@ -1,0 +1,91 @@
+[3] 13:49:12: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\ToscaIntegration\ToscaIntegration.tws'
+[3] 13:49:12: Log level: 4
+[3] 13:49:12: Release: 13.3.0.33762
+[3] 13:49:13: No service discovery configured.
+[3] 13:49:13:  + DistributedExecutionAddIn: DistributedExecutionAddIn 13.3.0.208 (33523)
+[3] 13:49:13:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 13.3.0.208 (33747)
+[3] 13:49:13:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 13.3.0.208 (33774)
+[3] 13:49:13:  + IntegrationManagementAddIn: IntegrationManagementAddIn 13.3.0.208 (33523)
+    - : QTestIntegration 13.3.1.12 (12)
+    + : SAPSolutionManagerIntegration 13.3.1.12 (12)
+[3] 13:49:13: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 13:49:13: Searcher found 0 results in 13.9999 ms
+[3] 13:49:13:  + OptIntAddIn: OptIntAddIn 13.3.0.208 (33523)
+[3] 13:49:13:  + QTestIntegrationAddIn: QTestIntegrationAddIn 13.3.0.208 (33850)
+[3] 13:49:13:  + RemoteControl: RemoteControlAddIn 13.3.0.208 (33702)
+[3] 13:49:13:  + Reporting: ReportingAddIn 13.3.0.208 (33523)
+[3] 13:49:13:  + ReportingUI: ReportingUIAddIn 13.3.0.208 (33523)
+[3] 13:49:13:  + RequirementsManagementAddIn: RequirementsManagement 13.3.0.208 (33523)
+[3] 13:49:13:  + RequirementsManagementUIAddIn: RequirementsManagementUI 13.3.0.208 (33523)
+[3] 13:49:13:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 13.3.0.208 (33523)
+[3] 13:49:13:  + TestCaseDesign: TestCaseDesign 13.3.0.208 (33555)
+[3] 13:49:13:  + ControlFlowDiagram: TestCaseVisualizationAddIn 13.3.0.208 (33523)
+[3] 13:49:13:  + XDefinitions: XDefinitions 13.3.0.208 (33687)
+[3] 13:49:13:  + XDefinitionsUI: XDefinitionsUI 13.3.0.208 (33523)
+[3] 13:49:13: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\ToscaIntegration\ToscaIntegration.tws'
+[3] 13:49:27: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 13:49:27: Trying to authenticate ldap user I536763 against workspace
+[3] 13:49:40: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 13:49:40: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.getNativeID(String username, String domainname, String password, Boolean processIdentityMustMatch)
+[3] 13:49:40: Failed to authenticate ldap user against workspace
+[3] 13:50:07: Workspace.Login for 'Admin'succeeded
+[4] 13:50:08:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 13:50:08:  ShowStatusInfo: 'Refresh all finished'
+[4] 13:50:08:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'ToscaIntegration''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'ToscaIntegration''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh all finished'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh navigation view 'ToscaIntegration''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh detail view 'ToscaIntegration''
+[4] 13:50:10:  ShowStatusInfo: 'Ready'
+[4] 13:50:10:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 13:50:10:  ShowStatusInfo: 'Refresh all finished'
+[3] 13:50:10: OpenWorkspace took 00:00:58.2425936 to finish
+[4] 13:50:15:  ShowStatusInfo: 'Ready'

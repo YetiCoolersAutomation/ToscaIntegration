@@ -1,0 +1,4 @@
+[3] 11:08:31: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\ToscaIntegration\ToscaIntegration.tws'
+[3] 11:08:31: Log level: 4
+[3] 11:08:31: Release: 13.3.0.33762
+[4] 11:08:31:  ShowStatusInfo: 'Ready'
