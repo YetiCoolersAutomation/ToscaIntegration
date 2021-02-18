@@ -1,0 +1,3 @@
+[3] 14:22:06: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\New folder\ToscaIntegration\ToscaIntegration.tws'
+[3] 14:22:06: Log level: 4
+[3] 14:22:06: Release: 13.3.0.33762
